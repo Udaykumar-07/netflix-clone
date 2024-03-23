@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    @import url('https://fonts.cdnfonts.com/css/netflix-font');
+    font-family: 'Netflix Font', sans-serif;
+
+    h2 {
+        display: flex;
+        margin-left: 11.5%;
+        font-size: 24px;
+        color: white;
+        padding: 0.3%;
+    }
+
+    h3 {
+        padding: 17px;
+        padding-top: 25px;
+        font-size: 24px;
+        color: white;
+    }
+
+}
+
+body {
+    background-color: black;
+    /* object-fit: cover; */
+}
+
+.main {
+    background-image: url("assets/bgi.jpg");
+    height: 690px;
+    max-width: auto;
+    background-size: 1395px;
+    position: relative;
+    background-repeat: no-repeat;
+    margin-top: -1.5%;
+}
+
+.main .box {
+    height: 110vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 77vw;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    top: -6px;
+}
+
+nav img {
+    width: 11vw;
+
+}
+
+button {
+    width: 5vw;
+    height: 3vh;
+}
+.btn1{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    width:8vw ;
+    height: 5vh;
+    background-color: rgba(23,23,23,0.9);
+    border-color: (255, 255, 255, 0.3);
+    border-style:groove;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lang{
+    width: 9vw;
+    display: flex;
+    gap: 6px;
+    font-size: 16px;
+    font-weight:600 ;
+    color: white;
+}
+
+
+.lang img{
+    width: 20px;
+    height: 15px;
+    margin-left:-15px ;
+}
+
+.lang .d_arrow{
+    position: relative;
+    left: 10px;
+}
+.sign-in{
+    width: 6vw;
+    height: 5vh;
+    background-color: rgb(240, 0, 13);
+    border-color: rgb(0,0,0,0);
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    position: relative;
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+    color: white;
+    margin-bottom:1.5rem;
+    h1{
+        font-size: 56px;
+        font-weight: 900;
+        width: 50vw;
+        text-align: center;
+      
+    }
+    p{
+        margin-top: 0.5rem;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: normal
+    }
+    
+}
+.membership{
+   
+    h3{
+        margin-top: 0.5rem;
+        font-size: 16px;
+        font-weight: 550;
+        line-height: 24px;
+    }
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    input{
+        font-size: 16px;
+        font-weight: 500;
+        padding: 16px 12px 14px 11px;
+        height: 3.6vh;
+        width: 25vw;
+        border-radius: 5px;
+        background-color: rgba(23,23,23,0.5);
+        border-color:rgba(255, 255, 255, 0.3);
+        border-style:groove;
+        
+    }
+    button{
+        font-size: 24px;
+        font-weight: 600;
+        border-radius: 5px;
+        height: 9vh;
+        width: 15.5vw;
+        text-align: center;
+        text-overflow: clip;
+        background-color: red;
+        border: none;
+    }
+
+    img{
+       position: relative;
+       top: 4px;
+       left: 1px;
+       
+    }
+}
+
+
+.border {
+
+
+    height: 10vh;
+    width: auto;
+    /* border-radius: 50%; */
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+    border-top-left-radius: 112% 100%;
+    border-top-right-radius: 123% 100%;
+    position: relative;
+    z-index: 1;
+    top: -39.3px;
+
+}
+
+.purp {
+    background:radial-gradient(
+        50% 500% at 50% -420%,
+        rgba(64, 97, 231, 0.4) 80%,
+        rgba(0, 0, 0, 0.1) 100%
+    ),black;
+    height: 13vh;
+    width: auto;
+    position: relative;
+    border-top-left-radius: 165% 100%;
+    border-top-right-radius: 165% 100%;
+    top: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page2 {
+
+
+    p{
+        padding: 17px;
+        font-size: 1.125rem;
+        font-weight: 400;
+        font-size: 18px;
+        color: white;
+
+    }
+
+    .price {
+        padding: 17px;
+        font-size: 1.125rem;
+        font-weight: 700;
+        display: flex;
+        padding-top: 5px;
+        color: white;
+
+    }
+
+
+    .grid {
+        height: 37vh;
+        width: 18vw;
+        margin: 8px;
+        border-radius: 15px;
+        background: linear-gradient(180deg, #6c1f41 0%, #210d0e 100%);
+        transition: transform .3s;
+
+    }
+
+    .grid:hover {
+
+        transform: scale(1.03);
+        filter: brightness(1.5);
+
+    }
+
+}
+
+.page3 {
+    .cards {
+        height: 310px;
+        width: 245px;
+        margin: 8px;
+        border-radius: 15px;
+        /* backdrop-filter: blur(10px); */
+        background: linear-gradient(149deg,
+                #192247 0%,
+                #210e17 99.08%);
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 17px;
+        position: relative;
+        top: -15px;
+        color: white;
+    }
+}
+
+/* 
+.page3 .container .cards { 
+    width: 72px;
+    height: 72px;
+    position: relative;
+    left: 165px;
+    top: 28px;
+
+
+} */
+.c1 img {
+    width: 72px;
+    height: 72px;
+    position: relative;
+    left: 168px;
+    top: 40px;
+}
+
+.c2 img {
+    width: 72px;
+    height: 72px;
+    position: relative;
+    left: 168px;
+    top: -5px;
+
+}
+
+.c3 img {
+    width: 72px;
+    height: 72px;
+    position: relative;
+    left: 168px;
+    top: 55px;
+}
+
+.c4 img {
+    width: 72px;
+    height: 72px;
+    position: relative;
+    left: 165px;
+    top: 0px;
+}
+
+
+.faq {
+
+   background-color: black;
+   color: white;
+
+   
+    
+}
+
+.q1 {
+    font-size: 24px;
+    padding: 30px;
+    max-width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.308);
+    cursor:pointer;
+    margin: 10px 160px;
+
+
+}
+
+.q1:hover{
+    filter: brightness(1.5);
+}
+.page4{
+    h3{
+        font-size: 16px;
+        margin:0px 145px;
+    }
+}
+.subscribe{
+    margin:0px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    input{
+        width: 58vw;
+        height: 8.1vh;
+        background-color: rgba(23,23,23,0.4);
+        padding: 2px 12px 0px 13px;
+        border-color: rgba(255, 255, 255, 0.3) ;
+        border-radius: 5px;
+        border-style:groove;
+        font-weight: 500;
+        font-size: 16px;
+      
+        
+    }
+    button{
+        border-style: none;
+        height: 9vh;
+        width: 14vw;
+        background-color: rgb(229, 9, 20);        ;
+        font-weight: 600;
+        font-size: 24px;
+        color: white;
+        border-radius:4px ;
+        cursor: pointer;
+        img{
+            position: relative;
+            top: 4px;
+            left: 1px;
+        }
+    }
+    .button span{
+        font-style: normal;
+        text-decoration: none;
+    }
+
+}
+
+.questions{
+    margin-left: 190px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.fbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.fb{
+    display: inline-block;
+    width: 15.5vw;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px 10px;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.fb a{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.8);
+   
+}
+
+
+.lang1{
+    margin-left: 190px;
+}
+
+.end-txt{
+    margin-left: 180px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer{
+    padding-bottom: 6rem;
+}
