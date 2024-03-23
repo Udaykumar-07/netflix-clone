@@ -181,6 +181,7 @@ button {
         text-overflow: clip;
         background-color: red;
         border: none;
+        color: white;
     }
 
     img{
